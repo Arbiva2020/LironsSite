@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: rgb(246, 255, 248);
+  /* background-image: linear-gradient(to right, rgb(250, 248, 250), rgb(253, 243, 253), rgb(252, 220, 251)); */
+}

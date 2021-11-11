@@ -1,0 +1,10 @@
+.blogsList {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.blogsList__card {
+    margin:20px;
+    border-style: solid;
+    border-color: rgb(41, 33, 33);;
+}

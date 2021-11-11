@@ -1,0 +1,44 @@
+.contactUs__headline {
+    color: rgb(41, 33, 33);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactUs__location {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contactUs__phoneMail {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 50px;
+}
+
+#mail {
+    display: flex;
+margin-bottom: 20px;
+}
+
+#phone {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contactUs__adress {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 100px;  
+    margin-top: 20px;
+}

@@ -1,0 +1,91 @@
+.header {
+  /* height: 50%; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  position: relative; /*header always showes on top*/
+  top: 0;
+  z-index: 100; /* property specifies the stack order of an element*/
+  border-style: solid;
+  border-color: rgb(164, 195, 178);
+  height: 60px;
+  border-width: 6px;
+  background-color: rgb(164, 195, 178);
+}
+
+.header__top {
+  height: 40px;
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size:xx-large;
+  margin-bottom: 10px;
+  /* margin-top: 0px;
+  display: flex;
+ flex-direction: row;
+  background-color: white;
+  position:absolute; 
+  top: 0;
+  z-index: 100;
+  border-style: solid;
+  border-color: rgb(247, 202, 210);
+  
+  border-width: 6px;
+  background-image: linear-gradient(to right, rgb(250, 248, 250), rgb(253, 243, 253), rgb(252, 220, 251)); */
+}
+
+.header__total {
+  /* display: flex; */
+ flex-direction: row;
+}
+
+.header__even {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__menue {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 70px;
+  margin-right: 70px;
+  align-content: center;
+  text-align: center;
+  align-items: baseline;
+}
+
+.navBar {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  color: white;
+}
+
+.header__logo {
+  margin-left: 40px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain; /*keep aspect ratio*/
+}
+
+.navContain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link {
+  color: rgb(41, 33, 33);
+  flex-direction: column; /*The flex-direction CSS property sets how flex items are placed in the flex container. column means that one is above the other*/
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  justify-items:flex-end;
+  /* justify-content:; */
+  text-align: justify;
+}
+
+/* #Link {
+    text-align:justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */

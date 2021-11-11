@@ -1,0 +1,48 @@
+.carouselPage {
+    /* border-style: solid;
+    border-width: 3px; */
+    height: 350px;
+    /* margin-top: 50px; */
+    /* border-style: solid; */
+    /* border-top: 50px solid palevioletred; */
+    border-color: rgb(247, 202, 210);
+    border-width: 10px;
+}
+
+.images {
+    top: 100%;
+}
+
+.carouselPage__slider {
+    position: relative;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselPage__image {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    color: rgb(41, 33, 33);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    color: rgb(41, 33, 33);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}

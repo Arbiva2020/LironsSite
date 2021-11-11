@@ -1,0 +1,41 @@
+.footer__bar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding:10px;
+    border-style: solid;
+    border-color: rgb(107, 144, 128);
+    border-width: 10px;
+    background-color: rgb(107, 144, 128);
+    text-align:center;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer {
+    /* height: 100vh; */
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   }
+
+   .footer__search {
+     align-items: right;
+     margin-left: 600px;
+   }
+
+   #footerButt {
+     margin-right: 5px;
+   }
+
+   #rights {
+     color: rgb(41, 33, 33);
+   }
+
+   .footer__dropdown {
+    color: rgb(41, 33, 33);
+   }
+

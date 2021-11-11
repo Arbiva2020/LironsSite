@@ -1,0 +1,55 @@
+.home__title {
+    color: rgb(41, 33, 33);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.home__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'serif';
+    font-size: 150%;
+    line-height: 300%;
+}
+
+.home__treatments {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 100px;
+}
+
+.home__instagram {
+    background-color: rgb(204, 227, 222);
+    margin-top: 50px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.home__tip {
+    background-color: rgb(234, 244, 244);
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Amatic SC';
+    font-size: x-large;
+}
+
+.home__h1 {
+    align-self: center;
+}
+
+.hometip__headline {
+    display: flex;
+    justify-content: center;
+align-items: center;
+position: absolute;
+}

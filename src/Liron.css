@@ -1,0 +1,80 @@
+.liron__top {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.liron__liron {
+margin-top: 50px;
+    height:300px;
+    width: 550px;
+    height: 100%;
+    border-radius: 220px 0px 0px 220px;
+    /* border-radius: 30%; */
+}
+
+.liron__text {
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.liron__bottom {
+    margin-top: 100px;
+    border-top: 2px solid rgb(184, 190, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#headline_bottom {
+    color: rgb(41, 33, 33);
+    margin-top: 30px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.liron__image {
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+    border-style: solid;
+    border-color: rgb(41, 33, 33);
+    border-width: 0.5rem;
+    margin-bottom: 7rem;
+}
+
+.liron__recomends {
+    display: flex;
+    flex-direction: column;
+}
+
+.liron__images {
+    display: flex;
+    
+}
+
+.liron__bottomTitle {
+    align-self: flex-end; 
+    margin-bottom: 20px;
+}
+
+p {
+    height: 50px;
+    align-self: flex-end;
+}
+
+.img__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.topRightTitle {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+  }
