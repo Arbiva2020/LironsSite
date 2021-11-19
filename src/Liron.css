@@ -1,3 +1,8 @@
+.Liron__details {
+    display:flex;
+    justify-content: center;
+}
+
 .liron__top {
     display: flex;
     justify-content: space-between;
@@ -17,6 +22,8 @@ margin-top: 50px;
     margin-left: 200px;
     margin-top: 30px;
     margin-right: 100px;
+    direction: rtl;
+    line-height: 2rem;
 }
 
 .liron__bottom {
@@ -31,13 +38,14 @@ margin-top: 50px;
     color: rgb(41, 33, 33);
     margin-top: 30px;
     height: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .liron__image {
     height: 250px;
     width: 250px;
-    margin: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
     border-style: solid;
     border-color: rgb(41, 33, 33);
     border-width: 0.5rem;
@@ -47,6 +55,7 @@ margin-top: 50px;
 .liron__recomends {
     display: flex;
     flex-direction: column;
+    margin-right: 10px;
 }
 
 .liron__images {

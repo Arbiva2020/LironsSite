@@ -4,7 +4,7 @@ import "./Dropdown.css";
 
 function Dropdown({ options, prompt, value, onChange }) {
   const [open, setOpen] = useState(false);
-
+ 
   return (
     <div className="dropdown">
       <div className="control" onClick={() => setOpen((prev) => !prev)}>
@@ -31,7 +31,7 @@ function Dropdown({ options, prompt, value, onChange }) {
               onChange(option);
               setOpen(false);
             }}
-          > 
+          >  
             {option.description}
           </div>
         ))}

@@ -10,7 +10,7 @@
 
 .home__text {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     font-family: 'serif';
     font-size: 150%;

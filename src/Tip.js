@@ -11,14 +11,19 @@ import "./Tip.css";
 console.log(Tips);
 
 function Tip({ id, catagory, data }) {
-  const today = new Date();
-  const [tip, setGetTip] = useState();
-  const [todaysDate, setTodaysdate] = useState();
+  
+  const [getTip, setGetTip] = useState([]);
+  const [todaysDate, setTodaysDate] = useState();
 
   let getTips = (e) => {
-    const len = treatments.length;
+    const len = Tips.length;
     setGetTip(Math.floor(Math.random({ data }) * len));
   };
+
+  // let todaysDate = (e) => {
+  //   const today = new Date(date);  
+  //   setTodaysDate(today.getDate() + days)
+  // }
 
   useEffect(() => {
     //every time the date changes (00:00:00), we re-render the app and get a random treatments.tip{value}
@@ -30,7 +35,7 @@ function Tip({ id, catagory, data }) {
     //     console.log(data);
     //     setGetTip(data);
     // })
-  }, []);
+  }, [todaysDate]);
   return (
     <div>
       <Card
@@ -39,9 +44,11 @@ function Tip({ id, catagory, data }) {
       >
         <CardActionArea>
           <CardContent>
+
             <Typography gutterBottom variant="h5" component="div" style={{textAlign:"center", fontFamily:"Amatic SC"}}>
               {Tips[0].tip}
             </Typography>
+
           </CardContent>
         </CardActionArea>
       </Card>

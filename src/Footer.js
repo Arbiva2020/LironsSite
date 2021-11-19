@@ -32,8 +32,8 @@ function Footer(props) {
         <button type="button" id="footerButt">חיפוש</button>
 <input type="text"></input>
       </div>
-      <div className="selected__value"></div>
-      <Dropdown options={treatments} prompt="טיפולים" value={value} onChange={val => setValue(val)}/>
+      {/* <div className="selected__value"></div>
+      <Dropdown options={treatments} prompt="טיפולים" value={value} onChange={val => setValue(val)}/> */}
       <div>
         <p id="rights">כל הזכויות שמורות © {currentYear} </p>
         </div>

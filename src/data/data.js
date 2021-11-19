@@ -1,4 +1,5 @@
-const Tips = [
+
+const Tips = [  
   {
     id: 1,
     catagory: "פנים",
@@ -51,3 +52,4 @@ const Tips = [
 ];
 
 export default Tips;
+

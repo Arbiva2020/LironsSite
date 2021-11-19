@@ -5,6 +5,7 @@ import "./Header.css";
 import evenderech from "././images/evenderech.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import Dropdown from "./Dropdown";
 import treatments from "./data/data";
 
@@ -88,7 +89,7 @@ const [value, setValue] = useState(null);
             </span>
           </div>
         </Link>
-
+ 
         <div className="header__link">
           
 <Dropdown options={treatments} prompt="טיפולים" value={value} onChange={val => setValue(val)}/>
@@ -115,6 +116,28 @@ const [value, setValue] = useState(null);
             </span>
           </div>
         </Link>
+
+        <Link
+          to="/store"
+          style={{
+            textDecoration: "none",
+            fontSize: "20px",
+            fontWeight: "bolder",
+          }}
+        >
+          <div className="header__link">
+            <span
+              style={{
+                display: "flex",
+                justifyContent: "right",
+                width: "90px",
+              }}
+            >
+              חנות
+            </span>
+          </div>
+        </Link>
+
         <Link
           to="/ContactUs"
           style={{
@@ -152,6 +175,40 @@ const [value, setValue] = useState(null);
             </span>
           </div>
         </Link>
+
+        <Link
+          to="/checkOutPage"
+          style={{
+            textDecoration: "none",
+            fontSize: "20px",
+            fontWeight: "bolder",
+          }}
+        >
+          
+          <div className="header__link" style={{verticalAlign:"baseline", display:"flex"}}>
+            <span
+              style={{
+                display: "flex",
+                justifyContent: "right",
+                width: "90px",
+              }}
+            >
+                <FontAwesomeIcon
+                icon={faShoppingCart}
+                style={{
+                  marginLeft: "5px",
+                  marginRight:"0.5rem",
+                  display: "flex",
+                  fontSize: "20px",
+                  color: "rgb(240, 230, 239)",
+                  marginTop: "0.6rem",
+                }}
+              />
+              <span>0</span>
+            </span>
+          </div>
+        </Link>
+
       </div>
       </div>
    </div>

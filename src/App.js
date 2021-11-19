@@ -18,7 +18,10 @@ import ContactUs from "./ContactUs";
 import "leaflet/dist/leaflet.css";
 import BlogsList from "./BlogsList";
 import Liron from "./Liron";
+import Store from "./Store";
+import CheckOutPage from "./CheckOutPage";
 import Tip from "./Tip";
+import Subtotal from "./Subtotal";
 
 function App() {
   return (
@@ -35,7 +38,6 @@ function App() {
             <Blog />
           </Route>
           <Route path="/treatments">
-            <CarouselPage />
             <Treatments />
           </Route>
           <Route path="/gallery">
@@ -49,6 +51,12 @@ function App() {
           </Route>
           <Route path="/liron">
             <Liron />
+          </Route>
+          <Route path="/store">
+            <Store />
+          </Route>
+          <Route path="/checkOutPage">
+            <CheckOutPage />
           </Route>
           <Route path="/">
             <CarouselPage slides={SliderData} />
